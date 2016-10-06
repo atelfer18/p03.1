@@ -29,4 +29,10 @@ def run_tests():
 # Edit this code
 def sq_sum(n):
 
+    square = 0
+    
+    for i in range(0, n+1, 1):
+        
+        square = square + i*i 
 
+    print(square)

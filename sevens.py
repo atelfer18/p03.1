@@ -28,3 +28,13 @@ def run_tests():
 
 # Edit this code
 def add_sevens(n):
+
+    sevens = 0
+
+    for i in range(7, n+1, 7):
+        sevens = sevens + i
+
+    print(sevens)
+       
+    
+    
